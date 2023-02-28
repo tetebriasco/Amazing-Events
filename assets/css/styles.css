@@ -1,0 +1,58 @@
+.naveg {
+    background-color: black;
+    min-height: 10vh;
+}
+
+.naveg>div>a {
+    width: 90px;
+    height: 38px;
+    font-size: 12px !important;
+    font-weight: bold !important;
+}
+
+.carrousel {
+    background-color: rgb(71, 66, 66);
+    min-height: 10vh;
+}
+
+main{
+    min-height: 72vh;
+    background-color:white;
+}
+footer {
+    min-height: 8vh;
+    background-color: beige;
+}
+
+.circle a {
+    display: inline-block;
+    margin: 0 10px;
+    height: 50px;
+}
+
+.circle a img {
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    background-color: black;
+    padding: 5px;
+}
+
+.card1{
+    width: 23rem;
+    min-height:27.5rem;
+    background-color: rgb(133, 130, 130);
+    border-radius: 22px;
+}
+
+.card1>img {
+    box-shadow: -5px -5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.card1 a {
+    box-shadow: -10px -5px 5px rgba(0,0,0,0.2) !important;
+}
+
+p{
+    margin:0 !important;
+}
