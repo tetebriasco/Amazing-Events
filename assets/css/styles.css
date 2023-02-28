@@ -1,3 +1,7 @@
+body{
+    min-height: 100%;
+}
+
 .naveg {
     background-color: black;
     min-height: 10vh;
@@ -19,7 +23,15 @@ main{
     min-height: 72vh;
     background-color:white;
 }
+
+.details main{
+    min-height: 82vh;
+    background-color:white;
+}
 footer {
+    bottom: 0;
+    left: 0;
+    right: 0;
     min-height: 8vh;
     background-color: beige;
 }
@@ -45,7 +57,7 @@ footer {
     border-radius: 22px;
 }
 
-.card1>img {
+.card1>img, .card-details img {
     box-shadow: -5px -5px 5px rgba(0, 0, 0, 0.5);
 }
 
@@ -55,4 +67,39 @@ footer {
 
 p{
     margin:0 !important;
+}
+
+.search-bar{
+    width: 400px !important;
+}
+
+#fname, #femail, #fmensagge{
+    width: 400px;
+}
+
+#fmensagge{
+    height: 100px !important;
+}
+
+tr, td{
+    border: 1px solid black !important;
+    height: 28px !important;
+}
+
+td{
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+}
+
+thead{
+    background-color: grey;
+    height: 40px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.card-details{
+    max-width: 600px;
+    min-height: 300px;
+    background-color: rgb(207, 64, 64);
 }
